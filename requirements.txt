@@ -1,2 +1,2 @@
-playwright
 gradio
+playwright
