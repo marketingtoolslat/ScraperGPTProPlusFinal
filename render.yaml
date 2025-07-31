@@ -1,6 +1,8 @@
 services:
   - type: web
-    name: scrapergpt-pro-final
+    name: scrapergptproplusfinal
     env: python
-    buildCommand: "pip install -r requirements.txt && python -m playwright install"
-    startCommand: "bash start.sh"
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash start.sh
+    repo: https://github.com/marketingtoolslat/ScraperGPTProPlusFinal
+    branch: main

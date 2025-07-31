@@ -1,7 +1,1 @@
 gradio
-playwright
-bs4
-pandas
-matplotlib
-gspread
-oauth2client
