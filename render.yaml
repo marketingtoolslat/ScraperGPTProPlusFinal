@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: scrapergpt-pro-final
+    env: python
+    buildCommand: "pip install -r requirements.txt && python -m playwright install"
+    startCommand: "bash start.sh"
